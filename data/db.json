@@ -1,0 +1,131 @@
+{
+  "bookInfo": [
+    {
+      "id": 1,
+      "image": "images/1.png",
+      "title": "Bring Your Human to Work",
+      "author": [
+        "Erica Keswin"
+      ],
+      "readTime": 13,
+      "readersCount": "1.9k",
+      "status": "reading"
+    },
+    {
+      "id": 2,
+      "image": "images/11.png",
+      "title": "Employee to Entrepreneur",
+      "author": [
+        "Steve Glaveski"
+      ],
+      "readTime": 15,
+      "readersCount": "1.9k",
+      "status": "reading"
+    },
+    {
+      "id": 3,
+      "image": "images/3.png",
+      "title": "Doesn’t Hurt to Ask",
+      "author": [
+        "Tredy Gowdy"
+      ],
+      "readTime": 13,
+      "readersCount": "1.9k",
+      "status": "reading"
+    },
+    {
+      "id": 4,
+      "image": "images/4.png",
+      "title": "The Fate of Food",
+      "author": [
+        "Amanda Little"
+      ],
+      "readTime": 12,
+      "readersCount": "1.6k",
+      "status": "reading"
+    },
+    {
+      "id": 5,
+      "image": "images/5.png",
+      "title": "Lives of the Stoics",
+      "author": [
+        "Ryan Holiday",
+        "Stephen Hansel"
+      ],
+      "readTime": 13,
+      "status": "reading"
+    },
+    {
+      "id": 6,
+      "image": "images/6.png",
+      "title": "Loving Your Business",
+      "author": [
+        "Debbie King"
+      ],
+      "readTime": 13,
+      "status": "reading"
+    },
+    {
+      "id": 7,
+      "image": "images/7.png",
+      "title": "The Lonely Century",
+      "author": [
+        "Noorena Hertz"
+      ],
+      "readTime": 15,
+      "status": "reading"
+    },
+    {
+      "id": 8,
+      "image": "images/8.png",
+      "title": "Eat Better, Feel Better",
+      "author": [
+        "Giada De Laurentiis"
+      ],
+      "readTime": 13,
+      "readersCount": "1.9k",
+      "status": "reading"
+    },
+    {
+      "id": 9,
+      "image": "images/9.png",
+      "title": "Dropshipping",
+      "author": [
+        "James Moore"
+      ],
+      "readTime": 12,
+      "status": "reading"
+    },
+    {
+      "id": 10,
+      "image": "images/10.png",
+      "title": "Being Boss",
+      "author": [
+        "Kathleen Shannon and Emily..."
+      ],
+      "readTime": 13,
+      "status": "fresh"
+    },
+    {
+      "id": 11,
+      "image": "images/2.png",
+      "title": "Beyond Entrepreneurship",
+      "author": [
+        "Kathleen Shannon and Emily..."
+      ],
+      "readTime": 13,
+      "readersCount": "1.9k",
+      "status": "fresh"
+    },
+    {
+      "id": 12,
+      "image": "images/2.png",
+      "title": "Beyond Entrepreneurship 2.0",
+      "author": [
+        "Kathleen Shannon and Emily..."
+      ],
+      "readTime": 13,
+      "status": "fresh"
+    }
+  ]
+}

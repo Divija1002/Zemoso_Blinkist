@@ -1,5 +1,10 @@
-.App {
+/* .App {
   text-align: center;
+} */
+
+@font-face {
+  font-family: "Cera Pro";
+  src: url("./fonts/Cerapro/Cera-Pro-Regular.otf");
 }
 
 .App-logo {
