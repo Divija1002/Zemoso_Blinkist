@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testExecutions version="1">
+  <file path="/home/diviA/Documents/Blinklist/blinklist-app/src/components/atoms/ProgressBar/index.test.tsx">
+    <testCase name="Progress Bar count number of divs" duration="45"/>
+  </file>
+  <file path="/home/diviA/Documents/Blinklist/blinklist-app/src/components/atoms/BookImage/index.test.tsx">
+    <testCase name="Book Image renders book image" duration="94"/>
+  </file>
+  <file path="/home/diviA/Documents/Blinklist/blinklist-app/src/components/atoms/BookThumbnail/index.test.tsx">
+    <testCase name="Book Thumbnail title" duration="63"/>
+    <testCase name="Book Thumbnail author" duration="14"/>
+  </file>
+  <file path="/home/diviA/Documents/Blinklist/blinklist-app/src/components/molecules/Category/index.test.tsx">
+    <testCase name="category entrepreneurship category" duration="112"/>
+    <testCase name="category entrepreneurship category1" duration="14"/>
+  </file>
+  <file path="/home/diviA/Documents/Blinklist/blinklist-app/src/components/organisms/Header/index.test.tsx">
+    <testCase name="Header logo" duration="181"/>
+    <testCase name="Header text" duration="20"/>
+  </file>
+  <file path="/home/diviA/Documents/Blinklist/blinklist-app/src/components/molecules/Banner/index.test.tsx">
+    <testCase name="banner text 1" duration="71"/>
+    <testCase name="banner text 2" duration="15"/>
+    <testCase name="banner iamges" duration="74"/>
+  </file>
+  <file path="/home/diviA/Documents/Blinklist/blinklist-app/src/components/atoms/BookDetails/index.test.tsx">
+    <testCase name="Book Details renders read time" duration="67"/>
+    <testCase name="Book Details renders readers count" duration="25"/>
+    <testCase name="Book Details count images" duration="77"/>
+    <testCase name="Book Details read time image" duration="21"/>
+  </file>
+  <file path="/home/diviA/Documents/Blinklist/blinklist-app/src/components/organisms/Footer/index.test.tsx">
+    <testCase name="Footer image" duration="188"/>
+    <testCase name="Footer text" duration="29"/>
+    <testCase name="Footer Editorial" duration="22"/>
+    <testCase name="Footer Useful Links" duration="34"/>
+    <testCase name="Footer Company" duration="23"/>
+    <testCase name="Footer sitemap" duration="23"/>
+  </file>
+  <file path="/home/diviA/Documents/Blinklist/blinklist-app/src/components/atoms/Button/index.test.tsx">
+    <testCase name="Button Finished button" duration="125"/>
+    <testCase name="Button Read again button" duration="34"/>
+    <testCase name="Button Add to library button" duration="48"/>
+  </file>
+  <file path="/home/diviA/Documents/Blinklist/blinklist-app/src/components/molecules/BCard/index.test.tsx">
+    <testCase name="BCard Add to library" duration="142"/>
+    <testCase name="BCard Finished" duration="31"/>
+    <testCase name="BCard Reading" duration="26"/>
+    <testCase name="BCard Trending" duration="95"/>
+    <testCase name="BCard just Added" duration="12"/>
+  </file>
+  <file path="/home/diviA/Documents/Blinklist/blinklist-app/src/components/organisms/Explore/index.test.tsx">
+    <testCase name="Explore category" duration="457"/>
+    <testCase name="Explore tabs" duration="46"/>
+  </file>
+</testExecutions>
