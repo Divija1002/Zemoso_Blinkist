@@ -1,0 +1,1684 @@
+
+5src_components_organisms_Footer_index_tsx_4_16_A_11_0a
+W/home/diviA/Documents/Blinklist/blinklist-app/src/components/organisms/Footer/index.tsx ("s2_1*˚˘
+s2_1
+<synthetic> (I
+G
+
+__unknown_file (
+	%sc-P_4_0"__id**
+
+%env"
+
+%scope-P_4ÉÄ
+a
+W/home/diviA/Documents/Blinklist/blinklist-app/src/components/organisms/Footer/index.tsx- (
+	%object_0Object"Objectü
+ú
+a
+W/home/diviA/Documents/Blinklist/blinklist-app/src/components/organisms/Footer/index.tsx (#
+
+	%object_0Object"
+
+fontFamily"__id*
+
+Cera Proô
+ñ
+a
+W/home/diviA/Documents/Blinklist/blinklist-app/src/components/organisms/Footer/index.tsx (!
+
+	%object_0Object"
+
+fontSize"__id*
+24pxö
+ó
+a
+W/home/diviA/Documents/Blinklist/blinklist-app/src/components/organisms/Footer/index.tsx (#
+
+	%object_0Object"
+
+fontWeight"__id*
+500õ
+ò
+a
+W/home/diviA/Documents/Blinklist/blinklist-app/src/components/organisms/Footer/index.tsx	 	(#
+
+	%object_0Object"
+
+lineHeight"__id*
+32pxö
+ó
+a
+W/home/diviA/Documents/Blinklist/blinklist-app/src/components/organisms/Footer/index.tsx
+ 
+("
+
+	%object_0Object"
+	textAlign"__id*
+leftô
+ñ
+a
+W/home/diviA/Documents/Blinklist/blinklist-app/src/components/organisms/Footer/index.tsx (
+
+	%object_0Object"
+color"__id*	
+#0365F2î
+ë
+a
+W/home/diviA/Documents/Blinklist/blinklist-app/src/components/organisms/Footer/index.tsx (*
+betaSubtitle1"__id*
+
+	%object_0ObjectI
+G
+
+__unknown_file (
+	%sc-P_4_1"__id**
+
+%env"
+
+%scope-P_4ÉÄ
+a
+W/home/diviA/Documents/Blinklist/blinklist-app/src/components/organisms/Footer/index.tsx- (
+	%object_1Object"Objectü
+ú
+a
+W/home/diviA/Documents/Blinklist/blinklist-app/src/components/organisms/Footer/index.tsx (#
+
+	%object_1Object"
+
+fontFamily"__id*
+
+Cera Proô
+ñ
+a
+W/home/diviA/Documents/Blinklist/blinklist-app/src/components/organisms/Footer/index.tsx (!
+
+	%object_1Object"
+
+fontSize"__id*
+14pxö
+ó
+a
+W/home/diviA/Documents/Blinklist/blinklist-app/src/components/organisms/Footer/index.tsx (#
+
+	%object_1Object"
+
+fontWeight"__id*
+400õ
+ò
+a
+W/home/diviA/Documents/Blinklist/blinklist-app/src/components/organisms/Footer/index.tsx (#
+
+	%object_1Object"
+
+lineHeight"__id*
+22pxö
+ó
+a
+W/home/diviA/Documents/Blinklist/blinklist-app/src/components/organisms/Footer/index.tsx ("
+
+	%object_1Object"
+	textAlign"__id*
+leftô
+ñ
+a
+W/home/diviA/Documents/Blinklist/blinklist-app/src/components/organisms/Footer/index.tsx (
+
+	%object_1Object"
+color"__id*	
+#6D787Eî
+ë
+a
+W/home/diviA/Documents/Blinklist/blinklist-app/src/components/organisms/Footer/index.tsx (*
+gammaCaption1"__id*
+
+	%object_1ObjectI
+G
+
+__unknown_file (
+	%sc-P_4_2"__id**
+
+%env"
+
+%scope-P_4ÉÄ
+a
+W/home/diviA/Documents/Blinklist/blinklist-app/src/components/organisms/Footer/index.tsx) (
+	%object_2Object"Objectü
+ú
+a
+W/home/diviA/Documents/Blinklist/blinklist-app/src/components/organisms/Footer/index.tsx (#
+
+	%object_2Object"
+
+fontFamily"__id*
+
+Cera Proô
+ñ
+a
+W/home/diviA/Documents/Blinklist/blinklist-app/src/components/organisms/Footer/index.tsx (!
+
+	%object_2Object"
+
+fontSize"__id*
+16pxö
+ó
+a
+W/home/diviA/Documents/Blinklist/blinklist-app/src/components/organisms/Footer/index.tsx (#
+
+	%object_2Object"
+
+fontWeight"__id*
+700õ
+ò
+a
+W/home/diviA/Documents/Blinklist/blinklist-app/src/components/organisms/Footer/index.tsx (#
+
+	%object_2Object"
+
+lineHeight"__id*
+24pxù
+ö
+a
+W/home/diviA/Documents/Blinklist/blinklist-app/src/components/organisms/Footer/index.tsx (&
+
+	%object_2Object"
+letterSpacing"__id*
+0pxö
+ó
+a
+W/home/diviA/Documents/Blinklist/blinklist-app/src/components/organisms/Footer/index.tsx ("
+
+	%object_2Object"
+	textAlign"__id*
+leftô
+ñ
+a
+W/home/diviA/Documents/Blinklist/blinklist-app/src/components/organisms/Footer/index.tsx (
+
+	%object_2Object"
+color"__id*	
+#03314Bê
+ç
+a
+W/home/diviA/Documents/Blinklist/blinklist-app/src/components/organisms/Footer/index.tsx (&
+	betaBody1"__id*
+
+	%object_2ObjectI
+G
+
+__unknown_file (
+	%sc-P_4_3"__id**
+
+%env"
+
+%scope-P_4ÉÄ
+a
+W/home/diviA/Documents/Blinklist/blinklist-app/src/components/organisms/Footer/index.tsx!) )(
+	%object_3Object"Objectü
+ú
+a
+W/home/diviA/Documents/Blinklist/blinklist-app/src/components/organisms/Footer/index.tsx" "(#
+
+	%object_3Object"
+
+fontFamily"__id*
+
+Cera Proô
+ñ
+a
+W/home/diviA/Documents/Blinklist/blinklist-app/src/components/organisms/Footer/index.tsx# #(!
+
+	%object_3Object"
+
+fontSize"__id*
+16pxö
+ó
+a
+W/home/diviA/Documents/Blinklist/blinklist-app/src/components/organisms/Footer/index.tsx$ $(#
+
+	%object_3Object"
+
+fontWeight"__id*
+400õ
+ò
+a
+W/home/diviA/Documents/Blinklist/blinklist-app/src/components/organisms/Footer/index.tsx% %(#
+
+	%object_3Object"
+
+lineHeight"__id*
+24pxù
+ö
+a
+W/home/diviA/Documents/Blinklist/blinklist-app/src/components/organisms/Footer/index.tsx& &(&
+
+	%object_3Object"
+letterSpacing"__id*
+0pxö
+ó
+a
+W/home/diviA/Documents/Blinklist/blinklist-app/src/components/organisms/Footer/index.tsx' '("
+
+	%object_3Object"
+	textAlign"__id*
+leftô
+ñ
+a
+W/home/diviA/Documents/Blinklist/blinklist-app/src/components/organisms/Footer/index.tsx( ((
+
+	%object_3Object"
+color"__id*	
+#6D787Eê
+ç
+a
+W/home/diviA/Documents/Blinklist/blinklist-app/src/components/organisms/Footer/index.tsx! !(&
+	betaBody2"__id*
+
+	%object_3ObjectI
+G
+
+__unknown_file (
+	%sc-P_4_4"__id**
+
+%env"
+
+%scope-P_4ÉÄ
+a
+W/home/diviA/Documents/Blinklist/blinklist-app/src/components/organisms/Footer/index.tsx-
+ 1(
+	%object_4Object"Objectò
+ï
+a
+W/home/diviA/Documents/Blinklist/blinklist-app/src/components/organisms/Footer/index.tsx. .(
+
+	%object_4Object"
+height"__id*	
+370pxõ
+ò
+a
+W/home/diviA/Documents/Blinklist/blinklist-app/src/components/organisms/Footer/index.tsx/ /("
+
+	%object_4Object"
+	marginTop"__id*	
+111pxû
+õ
+a
+W/home/diviA/Documents/Blinklist/blinklist-app/src/components/organisms/Footer/index.tsx0 0(#
+
+	%object_4Object"
+
+background"__id*	
+#F1F6F4I
+G
+
+__unknown_file (
+	%sc-P_4_5"__id**
+
+%env"
+
+%scope-P_4ÉÄ
+a
+W/home/diviA/Documents/Blinklist/blinklist-app/src/components/organisms/Footer/index.tsx4 8(	
+	%object_5Object"Objectù
+ö
+a
+W/home/diviA/Documents/Blinklist/blinklist-app/src/components/organisms/Footer/index.tsx5
+ 5($
+
+	%object_5Object"
+paddingLeft"__id*	
+244pxõ
+ò
+a
+W/home/diviA/Documents/Blinklist/blinklist-app/src/components/organisms/Footer/index.tsx6
+ 6(#
+
+	%object_5Object"
+
+paddingTop"__id*
+38pxò
+ï
+a
+W/home/diviA/Documents/Blinklist/blinklist-app/src/components/organisms/Footer/index.tsx7
+ 7( 
+
+	%object_5Object"	
+display"__id*
+flexI
+G
+
+__unknown_file (
+	%sc-P_4_6"__id**
+
+%env"
+
+%scope-P_4ÉÄ
+a
+W/home/diviA/Documents/Blinklist/blinklist-app/src/components/organisms/Footer/index.tsx; =(
+	%object_6Object"Objectó
+î
+a
+W/home/diviA/Documents/Blinklist/blinklist-app/src/components/organisms/Footer/index.tsx< <(
+
+	%object_6Object"
+width"__id*	
+350pxI
+G
+
+__unknown_file (
+	%sc-P_4_7"__id**
+
+%env"
+
+%scope-P_4ÉÄ
+a
+W/home/diviA/Documents/Blinklist/blinklist-app/src/components/organisms/Footer/index.tsxC C("
+	%object_7Object"Objectó
+î
+a
+W/home/diviA/Documents/Blinklist/blinklist-app/src/components/organisms/Footer/index.tsxC C( 
+
+	%object_7Object"
+height"__id*
+24pxáÑ
+a
+W/home/diviA/Documents/Blinklist/blinklist-app/src/components/organisms/Footer/index.tsx?
+ D(
+%reactProps_0Object"Object§
+°
+a
+W/home/diviA/Documents/Blinklist/blinklist-app/src/components/organisms/Footer/index.tsx@ @(
+
+%reactProps_0Object"
+sx"__id*
+
+	%object_7Objectñ
+ì
+a
+W/home/diviA/Documents/Blinklist/blinklist-app/src/components/organisms/Footer/index.tsx?
+ D(
+%fieldAccess_0"__id**
+
+	%sc-P_4_7"
+BoxÃ
+…
+a
+W/home/diviA/Documents/Blinklist/blinklist-app/src/components/organisms/Footer/index.tsx?
+ D(
+%reactElement_0"__reactCreateElement* *
+
+%env*
+
+%fieldAccess_0*
+
+%reactProps_0ObjectI
+G
+
+__unknown_file (
+	%sc-P_4_8"__id**
+
+%env"
+
+%scope-P_4ÉÄ
+a
+W/home/diviA/Documents/Blinklist/blinklist-app/src/components/organisms/Footer/index.tsxF I(
+	%object_8Object"Objectõ
+ò
+a
+W/home/diviA/Documents/Blinklist/blinklist-app/src/components/organisms/Footer/index.tsxG G( #
+
+	%object_8Object"
+
+paddingTop"__id*
+32pxó
+î
+a
+W/home/diviA/Documents/Blinklist/blinklist-app/src/components/organisms/Footer/index.tsxH H(
+
+	%object_8Object"
+height"__id*
+64pxI
+G
+
+__unknown_file (
+	%sc-P_4_9"__id**
+
+%env"
+
+%scope-P_4áÑ
+a
+W/home/diviA/Documents/Blinklist/blinklist-app/src/components/organisms/Footer/index.tsxK M(
+%reactProps_1Object"Object†
+ù
+a
+W/home/diviA/Documents/Blinklist/blinklist-app/src/components/organisms/Footer/index.tsxK K(*
+
+%reactProps_1Object"
+sx"__id*
+
+betaSubtitle1ù
+ö
+a
+W/home/diviA/Documents/Blinklist/blinklist-app/src/components/organisms/Footer/index.tsxK M(
+%fieldAccess_1"__id**
+
+	%sc-P_4_9"
+
+TypographyÃ
+…
+a
+W/home/diviA/Documents/Blinklist/blinklist-app/src/components/organisms/Footer/index.tsxK M(
+%reactElement_1"__reactCreateElement* *
+
+%env*
+
+%fieldAccess_1*
+
+%reactProps_1ObjectáÑ
+a
+W/home/diviA/Documents/Blinklist/blinklist-app/src/components/organisms/Footer/index.tsxE
+ N(
+%reactProps_2Object"Object§
+°
+a
+W/home/diviA/Documents/Blinklist/blinklist-app/src/components/organisms/Footer/index.tsxF I(
+
+%reactProps_2Object"
+sx"__id*
+
+	%object_8Objectñ
+ì
+a
+W/home/diviA/Documents/Blinklist/blinklist-app/src/components/organisms/Footer/index.tsxE
+ N(
+%fieldAccess_2"__id**
+
+	%sc-P_4_8"
+Box·
+ﬁ
+a
+W/home/diviA/Documents/Blinklist/blinklist-app/src/components/organisms/Footer/index.tsxE
+ N(
+%reactElement_2"__reactCreateElement* *
+
+%env*
+
+%fieldAccess_2*
+
+%reactProps_2Object*
+
+%reactElement_1áÑ
+a
+W/home/diviA/Documents/Blinklist/blinklist-app/src/components/organisms/Footer/index.tsx: O(
+%reactProps_3Object"Object§
+°
+a
+W/home/diviA/Documents/Blinklist/blinklist-app/src/components/organisms/Footer/index.tsx;
+ =(
+
+%reactProps_3Object"
+sx"__id*
+
+	%object_6Objectñ
+ì
+a
+W/home/diviA/Documents/Blinklist/blinklist-app/src/components/organisms/Footer/index.tsx: O(
+%fieldAccess_3"__id**
+
+	%sc-P_4_6"
+Boxˆ
+Û
+a
+W/home/diviA/Documents/Blinklist/blinklist-app/src/components/organisms/Footer/index.tsx: O(
+%reactElement_3"__reactCreateElement* *
+
+%env*
+
+%fieldAccess_3*
+
+%reactProps_3Object*
+
+%reactElement_0*
+
+%reactElement_2J
+H
+
+__unknown_file (
+
+%sc-P_4_10"__id**
+
+%env"
+
+%scope-P_4ÉÄ
+a
+W/home/diviA/Documents/Blinklist/blinklist-app/src/components/organisms/Footer/index.tsxQ W(
+	%object_9Object"Objectõ
+ò
+a
+W/home/diviA/Documents/Blinklist/blinklist-app/src/components/organisms/Footer/index.tsxR R(#
+
+	%object_9Object"
+
+marginLeft"__id*
+32pxó
+î
+a
+W/home/diviA/Documents/Blinklist/blinklist-app/src/components/organisms/Footer/index.tsxS S(
+
+	%object_9Object"
+width"__id*	
+214pxò
+ï
+a
+W/home/diviA/Documents/Blinklist/blinklist-app/src/components/organisms/Footer/index.tsxT T( 
+
+	%object_9Object"	
+display"__id*
+flex†
+ù
+a
+W/home/diviA/Documents/Blinklist/blinklist-app/src/components/organisms/Footer/index.tsxU U(#&
+
+	%object_9Object"
+flexDirection"__id*
+
+columnó
+î
+a
+W/home/diviA/Documents/Blinklist/blinklist-app/src/components/organisms/Footer/index.tsxV V(
+
+	%object_9Object"
+rowGap"__id*
+16pxJ
+H
+
+__unknown_file (
+
+%sc-P_4_11"__id**
+
+%env"
+
+%scope-P_4áÑ
+a
+W/home/diviA/Documents/Blinklist/blinklist-app/src/components/organisms/Footer/index.tsxY
+ Y(;
+%reactProps_4Object"Objectú
+ô
+a
+W/home/diviA/Documents/Blinklist/blinklist-app/src/components/organisms/Footer/index.tsxY Y($
+
+%reactProps_4Object"
+sx"__id*
+
+	betaBody1û
+õ
+a
+W/home/diviA/Documents/Blinklist/blinklist-app/src/components/organisms/Footer/index.tsxY
+ Y(;
+%fieldAccess_4"__id**
+
+
+%sc-P_4_11"
+
+TypographyÃ
+…
+a
+W/home/diviA/Documents/Blinklist/blinklist-app/src/components/organisms/Footer/index.tsxY
+ Y(;
+%reactElement_4"__reactCreateElement* *
+
+%env*
+
+%fieldAccess_4*
+
+%reactProps_4ObjectJ
+H
+
+__unknown_file (
+
+%sc-P_4_12"__id**
+
+%env"
+
+%scope-P_4áÑ
+a
+W/home/diviA/Documents/Blinklist/blinklist-app/src/components/organisms/Footer/index.tsxZ
+ Z(<
+%reactProps_5Object"Objectú
+ô
+a
+W/home/diviA/Documents/Blinklist/blinklist-app/src/components/organisms/Footer/index.tsxZ Z($
+
+%reactProps_5Object"
+sx"__id*
+
+	betaBody2û
+õ
+a
+W/home/diviA/Documents/Blinklist/blinklist-app/src/components/organisms/Footer/index.tsxZ
+ Z(<
+%fieldAccess_5"__id**
+
+
+%sc-P_4_12"
+
+TypographyÃ
+…
+a
+W/home/diviA/Documents/Blinklist/blinklist-app/src/components/organisms/Footer/index.tsxZ
+ Z(<
+%reactElement_5"__reactCreateElement* *
+
+%env*
+
+%fieldAccess_5*
+
+%reactProps_5ObjectJ
+H
+
+__unknown_file (
+
+%sc-P_4_13"__id**
+
+%env"
+
+%scope-P_4áÑ
+a
+W/home/diviA/Documents/Blinklist/blinklist-app/src/components/organisms/Footer/index.tsx[
+ [(E
+%reactProps_6Object"Objectú
+ô
+a
+W/home/diviA/Documents/Blinklist/blinklist-app/src/components/organisms/Footer/index.tsx[ [($
+
+%reactProps_6Object"
+sx"__id*
+
+	betaBody2û
+õ
+a
+W/home/diviA/Documents/Blinklist/blinklist-app/src/components/organisms/Footer/index.tsx[
+ [(E
+%fieldAccess_6"__id**
+
+
+%sc-P_4_13"
+
+TypographyÃ
+…
+a
+W/home/diviA/Documents/Blinklist/blinklist-app/src/components/organisms/Footer/index.tsx[
+ [(E
+%reactElement_6"__reactCreateElement* *
+
+%env*
+
+%fieldAccess_6*
+
+%reactProps_6ObjectJ
+H
+
+__unknown_file (
+
+%sc-P_4_14"__id**
+
+%env"
+
+%scope-P_4áÑ
+a
+W/home/diviA/Documents/Blinklist/blinklist-app/src/components/organisms/Footer/index.tsx\
+ \(D
+%reactProps_7Object"Objectú
+ô
+a
+W/home/diviA/Documents/Blinklist/blinklist-app/src/components/organisms/Footer/index.tsx\ \($
+
+%reactProps_7Object"
+sx"__id*
+
+	betaBody2û
+õ
+a
+W/home/diviA/Documents/Blinklist/blinklist-app/src/components/organisms/Footer/index.tsx\
+ \(D
+%fieldAccess_7"__id**
+
+
+%sc-P_4_14"
+
+TypographyÃ
+…
+a
+W/home/diviA/Documents/Blinklist/blinklist-app/src/components/organisms/Footer/index.tsx\
+ \(D
+%reactElement_7"__reactCreateElement* *
+
+%env*
+
+%fieldAccess_7*
+
+%reactProps_7ObjectJ
+H
+
+__unknown_file (
+
+%sc-P_4_15"__id**
+
+%env"
+
+%scope-P_4áÑ
+a
+W/home/diviA/Documents/Blinklist/blinklist-app/src/components/organisms/Footer/index.tsx]
+ ](E
+%reactProps_8Object"Objectú
+ô
+a
+W/home/diviA/Documents/Blinklist/blinklist-app/src/components/organisms/Footer/index.tsx] ]($
+
+%reactProps_8Object"
+sx"__id*
+
+	betaBody2û
+õ
+a
+W/home/diviA/Documents/Blinklist/blinklist-app/src/components/organisms/Footer/index.tsx]
+ ](E
+%fieldAccess_8"__id**
+
+
+%sc-P_4_15"
+
+TypographyÃ
+…
+a
+W/home/diviA/Documents/Blinklist/blinklist-app/src/components/organisms/Footer/index.tsx]
+ ](E
+%reactElement_8"__reactCreateElement* *
+
+%env*
+
+%fieldAccess_8*
+
+%reactProps_8ObjectáÑ
+a
+W/home/diviA/Documents/Blinklist/blinklist-app/src/components/organisms/Footer/index.tsxP ^(
+%reactProps_9Object"Object§
+°
+a
+W/home/diviA/Documents/Blinklist/blinklist-app/src/components/organisms/Footer/index.tsxQ
+ W(
+
+%reactProps_9Object"
+sx"__id*
+
+	%object_9Objectó
+î
+a
+W/home/diviA/Documents/Blinklist/blinklist-app/src/components/organisms/Footer/index.tsxP ^(
+%fieldAccess_9"__id**
+
+
+%sc-P_4_10"
+Boxµ
+≤
+a
+W/home/diviA/Documents/Blinklist/blinklist-app/src/components/organisms/Footer/index.tsxP ^(
+%reactElement_9"__reactCreateElement* *
+
+%env*
+
+%fieldAccess_9*
+
+%reactProps_9Object*
+
+%reactElement_4*
+
+%reactElement_5*
+
+%reactElement_6*
+
+%reactElement_7*
+
+%reactElement_8J
+H
+
+__unknown_file (
+
+%sc-P_4_16"__id**
+
+%env"
+
+%scope-P_4ÑÅ
+a
+W/home/diviA/Documents/Blinklist/blinklist-app/src/components/organisms/Footer/index.tsx` f(
+
+%object_10Object"Objectú
+ô
+a
+W/home/diviA/Documents/Blinklist/blinklist-app/src/components/organisms/Footer/index.tsxa a($
+
+
+%object_10Object"
+
+marginLeft"__id*
+32pxò
+ï
+a
+W/home/diviA/Documents/Blinklist/blinklist-app/src/components/organisms/Footer/index.tsxb b(
+
+
+%object_10Object"
+width"__id*	
+214pxô
+ñ
+a
+W/home/diviA/Documents/Blinklist/blinklist-app/src/components/organisms/Footer/index.tsxc c(!
+
+
+%object_10Object"	
+display"__id*
+flex°
+û
+a
+W/home/diviA/Documents/Blinklist/blinklist-app/src/components/organisms/Footer/index.tsxd d(#'
+
+
+%object_10Object"
+flexDirection"__id*
+
+columnò
+ï
+a
+W/home/diviA/Documents/Blinklist/blinklist-app/src/components/organisms/Footer/index.tsxe e( 
+
+
+%object_10Object"
+rowGap"__id*
+16pxJ
+H
+
+__unknown_file (
+
+%sc-P_4_17"__id**
+
+%env"
+
+%scope-P_4àÖ
+a
+W/home/diviA/Documents/Blinklist/blinklist-app/src/components/organisms/Footer/index.tsxh
+ h(>
+%reactProps_10Object"Objectù
+ö
+a
+W/home/diviA/Documents/Blinklist/blinklist-app/src/components/organisms/Footer/index.tsxh h($ 
+
+%reactProps_10Object"
+sx"__id*
+
+	betaBody1ü
+ú
+a
+W/home/diviA/Documents/Blinklist/blinklist-app/src/components/organisms/Footer/index.tsxh
+ h(>
+%fieldAccess_10"__id**
+
+
+%sc-P_4_17"
+
+Typographyœ
+Ã
+a
+W/home/diviA/Documents/Blinklist/blinklist-app/src/components/organisms/Footer/index.tsxh
+ h(>
+%reactElement_10"__reactCreateElement* *
+
+%env*
+
+%fieldAccess_10*
+
+%reactProps_10ObjectJ
+H
+
+__unknown_file (
+
+%sc-P_4_18"__id**
+
+%env"
+
+%scope-P_4àÖ
+a
+W/home/diviA/Documents/Blinklist/blinklist-app/src/components/organisms/Footer/index.tsxi
+ i(9
+%reactProps_11Object"Objectù
+ö
+a
+W/home/diviA/Documents/Blinklist/blinklist-app/src/components/organisms/Footer/index.tsxi i($ 
+
+%reactProps_11Object"
+sx"__id*
+
+	betaBody2ü
+ú
+a
+W/home/diviA/Documents/Blinklist/blinklist-app/src/components/organisms/Footer/index.tsxi
+ i(9
+%fieldAccess_11"__id**
+
+
+%sc-P_4_18"
+
+Typographyœ
+Ã
+a
+W/home/diviA/Documents/Blinklist/blinklist-app/src/components/organisms/Footer/index.tsxi
+ i(9
+%reactElement_11"__reactCreateElement* *
+
+%env*
+
+%fieldAccess_11*
+
+%reactProps_11ObjectJ
+H
+
+__unknown_file (
+
+%sc-P_4_19"__id**
+
+%env"
+
+%scope-P_4àÖ
+a
+W/home/diviA/Documents/Blinklist/blinklist-app/src/components/organisms/Footer/index.tsxj
+ j(C
+%reactProps_12Object"Objectù
+ö
+a
+W/home/diviA/Documents/Blinklist/blinklist-app/src/components/organisms/Footer/index.tsxj j($ 
+
+%reactProps_12Object"
+sx"__id*
+
+	betaBody2ü
+ú
+a
+W/home/diviA/Documents/Blinklist/blinklist-app/src/components/organisms/Footer/index.tsxj
+ j(C
+%fieldAccess_12"__id**
+
+
+%sc-P_4_19"
+
+Typographyœ
+Ã
+a
+W/home/diviA/Documents/Blinklist/blinklist-app/src/components/organisms/Footer/index.tsxj
+ j(C
+%reactElement_12"__reactCreateElement* *
+
+%env*
+
+%fieldAccess_12*
+
+%reactProps_12ObjectJ
+H
+
+__unknown_file (
+
+%sc-P_4_20"__id**
+
+%env"
+
+%scope-P_4àÖ
+a
+W/home/diviA/Documents/Blinklist/blinklist-app/src/components/organisms/Footer/index.tsxk
+ k(<
+%reactProps_13Object"Objectù
+ö
+a
+W/home/diviA/Documents/Blinklist/blinklist-app/src/components/organisms/Footer/index.tsxk k($ 
+
+%reactProps_13Object"
+sx"__id*
+
+	betaBody2ü
+ú
+a
+W/home/diviA/Documents/Blinklist/blinklist-app/src/components/organisms/Footer/index.tsxk
+ k(<
+%fieldAccess_13"__id**
+
+
+%sc-P_4_20"
+
+Typographyœ
+Ã
+a
+W/home/diviA/Documents/Blinklist/blinklist-app/src/components/organisms/Footer/index.tsxk
+ k(<
+%reactElement_13"__reactCreateElement* *
+
+%env*
+
+%fieldAccess_13*
+
+%reactProps_13ObjectJ
+H
+
+__unknown_file (
+
+%sc-P_4_21"__id**
+
+%env"
+
+%scope-P_4àÖ
+a
+W/home/diviA/Documents/Blinklist/blinklist-app/src/components/organisms/Footer/index.tsxl
+ l(B
+%reactProps_14Object"Objectù
+ö
+a
+W/home/diviA/Documents/Blinklist/blinklist-app/src/components/organisms/Footer/index.tsxl l($ 
+
+%reactProps_14Object"
+sx"__id*
+
+	betaBody2ü
+ú
+a
+W/home/diviA/Documents/Blinklist/blinklist-app/src/components/organisms/Footer/index.tsxl
+ l(B
+%fieldAccess_14"__id**
+
+
+%sc-P_4_21"
+
+Typographyœ
+Ã
+a
+W/home/diviA/Documents/Blinklist/blinklist-app/src/components/organisms/Footer/index.tsxl
+ l(B
+%reactElement_14"__reactCreateElement* *
+
+%env*
+
+%fieldAccess_14*
+
+%reactProps_14ObjectJ
+H
+
+__unknown_file (
+
+%sc-P_4_22"__id**
+
+%env"
+
+%scope-P_4àÖ
+a
+W/home/diviA/Documents/Blinklist/blinklist-app/src/components/organisms/Footer/index.tsxm
+ m(@
+%reactProps_15Object"Objectù
+ö
+a
+W/home/diviA/Documents/Blinklist/blinklist-app/src/components/organisms/Footer/index.tsxm m($ 
+
+%reactProps_15Object"
+sx"__id*
+
+	betaBody2ü
+ú
+a
+W/home/diviA/Documents/Blinklist/blinklist-app/src/components/organisms/Footer/index.tsxm
+ m(@
+%fieldAccess_15"__id**
+
+
+%sc-P_4_22"
+
+Typographyœ
+Ã
+a
+W/home/diviA/Documents/Blinklist/blinklist-app/src/components/organisms/Footer/index.tsxm
+ m(@
+%reactElement_15"__reactCreateElement* *
+
+%env*
+
+%fieldAccess_15*
+
+%reactProps_15ObjectàÖ
+a
+W/home/diviA/Documents/Blinklist/blinklist-app/src/components/organisms/Footer/index.tsx_ n(
+%reactProps_16Object"Object¶
+£
+a
+W/home/diviA/Documents/Blinklist/blinklist-app/src/components/organisms/Footer/index.tsx`
+ f( 
+
+%reactProps_16Object"
+sx"__id*
+
+
+%object_10Objectò
+ï
+a
+W/home/diviA/Documents/Blinklist/blinklist-app/src/components/organisms/Footer/index.tsx_ n(
+%fieldAccess_16"__id**
+
+
+%sc-P_4_16"
+Box”
+–
+a
+W/home/diviA/Documents/Blinklist/blinklist-app/src/components/organisms/Footer/index.tsx_ n(
+%reactElement_16"__reactCreateElement* *
+
+%env*
+
+%fieldAccess_16*
+
+%reactProps_16Object*
+
+%reactElement_10*
+
+%reactElement_11*
+
+%reactElement_12*
+
+%reactElement_13*
+
+%reactElement_14*
+
+%reactElement_15J
+H
+
+__unknown_file (
+
+%sc-P_4_23"__id**
+
+%env"
+
+%scope-P_4ÑÅ
+a
+W/home/diviA/Documents/Blinklist/blinklist-app/src/components/organisms/Footer/index.tsxp v(
+
+%object_11Object"Objectú
+ô
+a
+W/home/diviA/Documents/Blinklist/blinklist-app/src/components/organisms/Footer/index.tsxq q($
+
+
+%object_11Object"
+
+marginLeft"__id*
+32pxò
+ï
+a
+W/home/diviA/Documents/Blinklist/blinklist-app/src/components/organisms/Footer/index.tsxr r(
+
+
+%object_11Object"
+width"__id*	
+214pxô
+ñ
+a
+W/home/diviA/Documents/Blinklist/blinklist-app/src/components/organisms/Footer/index.tsxs s(!
+
+
+%object_11Object"	
+display"__id*
+flex°
+û
+a
+W/home/diviA/Documents/Blinklist/blinklist-app/src/components/organisms/Footer/index.tsxt t(#'
+
+
+%object_11Object"
+flexDirection"__id*
+
+columnò
+ï
+a
+W/home/diviA/Documents/Blinklist/blinklist-app/src/components/organisms/Footer/index.tsxu u( 
+
+
+%object_11Object"
+rowGap"__id*
+16pxJ
+H
+
+__unknown_file (
+
+%sc-P_4_24"__id**
+
+%env"
+
+%scope-P_4àÖ
+a
+W/home/diviA/Documents/Blinklist/blinklist-app/src/components/organisms/Footer/index.tsxx
+ x(9
+%reactProps_17Object"Objectù
+ö
+a
+W/home/diviA/Documents/Blinklist/blinklist-app/src/components/organisms/Footer/index.tsxx x($ 
+
+%reactProps_17Object"
+sx"__id*
+
+	betaBody1ü
+ú
+a
+W/home/diviA/Documents/Blinklist/blinklist-app/src/components/organisms/Footer/index.tsxx
+ x(9
+%fieldAccess_17"__id**
+
+
+%sc-P_4_24"
+
+Typographyœ
+Ã
+a
+W/home/diviA/Documents/Blinklist/blinklist-app/src/components/organisms/Footer/index.tsxx
+ x(9
+%reactElement_17"__reactCreateElement* *
+
+%env*
+
+%fieldAccess_17*
+
+%reactProps_17ObjectJ
+H
+
+__unknown_file (
+
+%sc-P_4_25"__id**
+
+%env"
+
+%scope-P_4àÖ
+a
+W/home/diviA/Documents/Blinklist/blinklist-app/src/components/organisms/Footer/index.tsxy
+ y(7
+%reactProps_18Object"Objectù
+ö
+a
+W/home/diviA/Documents/Blinklist/blinklist-app/src/components/organisms/Footer/index.tsxy y($ 
+
+%reactProps_18Object"
+sx"__id*
+
+	betaBody2ü
+ú
+a
+W/home/diviA/Documents/Blinklist/blinklist-app/src/components/organisms/Footer/index.tsxy
+ y(7
+%fieldAccess_18"__id**
+
+
+%sc-P_4_25"
+
+Typographyœ
+Ã
+a
+W/home/diviA/Documents/Blinklist/blinklist-app/src/components/organisms/Footer/index.tsxy
+ y(7
+%reactElement_18"__reactCreateElement* *
+
+%env*
+
+%fieldAccess_18*
+
+%reactProps_18ObjectJ
+H
+
+__unknown_file (
+
+%sc-P_4_26"__id**
+
+%env"
+
+%scope-P_4àÖ
+a
+W/home/diviA/Documents/Blinklist/blinklist-app/src/components/organisms/Footer/index.tsxz
+ z(9
+%reactProps_19Object"Objectù
+ö
+a
+W/home/diviA/Documents/Blinklist/blinklist-app/src/components/organisms/Footer/index.tsxz z($ 
+
+%reactProps_19Object"
+sx"__id*
+
+	betaBody2ü
+ú
+a
+W/home/diviA/Documents/Blinklist/blinklist-app/src/components/organisms/Footer/index.tsxz
+ z(9
+%fieldAccess_19"__id**
+
+
+%sc-P_4_26"
+
+Typographyœ
+Ã
+a
+W/home/diviA/Documents/Blinklist/blinklist-app/src/components/organisms/Footer/index.tsxz
+ z(9
+%reactElement_19"__reactCreateElement* *
+
+%env*
+
+%fieldAccess_19*
+
+%reactProps_19ObjectJ
+H
+
+__unknown_file (
+
+%sc-P_4_27"__id**
+
+%env"
+
+%scope-P_4àÖ
+a
+W/home/diviA/Documents/Blinklist/blinklist-app/src/components/organisms/Footer/index.tsx{
+ {(:
+%reactProps_20Object"Objectù
+ö
+a
+W/home/diviA/Documents/Blinklist/blinklist-app/src/components/organisms/Footer/index.tsx{ {($ 
+
+%reactProps_20Object"
+sx"__id*
+
+	betaBody2ü
+ú
+a
+W/home/diviA/Documents/Blinklist/blinklist-app/src/components/organisms/Footer/index.tsx{
+ {(:
+%fieldAccess_20"__id**
+
+
+%sc-P_4_27"
+
+Typographyœ
+Ã
+a
+W/home/diviA/Documents/Blinklist/blinklist-app/src/components/organisms/Footer/index.tsx{
+ {(:
+%reactElement_20"__reactCreateElement* *
+
+%env*
+
+%fieldAccess_20*
+
+%reactProps_20ObjectJ
+H
+
+__unknown_file (
+
+%sc-P_4_28"__id**
+
+%env"
+
+%scope-P_4àÖ
+a
+W/home/diviA/Documents/Blinklist/blinklist-app/src/components/organisms/Footer/index.tsx|
+ |(A
+%reactProps_21Object"Objectù
+ö
+a
+W/home/diviA/Documents/Blinklist/blinklist-app/src/components/organisms/Footer/index.tsx| |($ 
+
+%reactProps_21Object"
+sx"__id*
+
+	betaBody2ü
+ú
+a
+W/home/diviA/Documents/Blinklist/blinklist-app/src/components/organisms/Footer/index.tsx|
+ |(A
+%fieldAccess_21"__id**
+
+
+%sc-P_4_28"
+
+Typographyœ
+Ã
+a
+W/home/diviA/Documents/Blinklist/blinklist-app/src/components/organisms/Footer/index.tsx|
+ |(A
+%reactElement_21"__reactCreateElement* *
+
+%env*
+
+%fieldAccess_21*
+
+%reactProps_21ObjectàÖ
+a
+W/home/diviA/Documents/Blinklist/blinklist-app/src/components/organisms/Footer/index.tsxo }(
+%reactProps_22Object"Object¶
+£
+a
+W/home/diviA/Documents/Blinklist/blinklist-app/src/components/organisms/Footer/index.tsxp
+ v( 
+
+%reactProps_22Object"
+sx"__id*
+
+
+%object_11Objectò
+ï
+a
+W/home/diviA/Documents/Blinklist/blinklist-app/src/components/organisms/Footer/index.tsxo }(
+%fieldAccess_22"__id**
+
+
+%sc-P_4_23"
+BoxΩ
+∫
+a
+W/home/diviA/Documents/Blinklist/blinklist-app/src/components/organisms/Footer/index.tsxo }(
+%reactElement_22"__reactCreateElement* *
+
+%env*
+
+%fieldAccess_22*
+
+%reactProps_22Object*
+
+%reactElement_17*
+
+%reactElement_18*
+
+%reactElement_19*
+
+%reactElement_20*
+
+%reactElement_21àÖ
+a
+W/home/diviA/Documents/Blinklist/blinklist-app/src/components/organisms/Footer/index.tsx3 ~(
+%reactProps_23Object"Object•
+¢
+a
+W/home/diviA/Documents/Blinklist/blinklist-app/src/components/organisms/Footer/index.tsx4 8(
+ 
+
+%reactProps_23Object"
+sx"__id*
+
+	%object_5Objectó
+î
+a
+W/home/diviA/Documents/Blinklist/blinklist-app/src/components/organisms/Footer/index.tsx3 ~(
+%fieldAccess_23"__id**
+
+	%sc-P_4_5"
+Box•
+¢
+a
+W/home/diviA/Documents/Blinklist/blinklist-app/src/components/organisms/Footer/index.tsx3 ~(
+%reactElement_23"__reactCreateElement* *
+
+%env*
+
+%fieldAccess_23*
+
+%reactProps_23Object*
+
+%reactElement_3*
+
+%reactElement_9*
+
+%reactElement_16*
+
+%reactElement_22J
+H
+
+__unknown_file (
+
+%sc-P_4_29"__id**
+
+%env"
+
+%scope-P_4ÑÅ
+a
+W/home/diviA/Documents/Blinklist/blinklist-app/src/components/organisms/Footer/index.tsx (K
+
+%object_12Object"Objectû
+õ
+a
+W/home/diviA/Documents/Blinklist/blinklist-app/src/components/organisms/Footer/index.tsx (%%
+
+
+%object_12Object"
+paddingLeft"__id*	
+244pxú
+ô
+a
+W/home/diviA/Documents/Blinklist/blinklist-app/src/components/organisms/Footer/index.tsx' (9$
+
+
+%object_12Object"
+
+paddingTop"__id*
+48pxò
+ï
+a
+W/home/diviA/Documents/Blinklist/blinklist-app/src/components/organisms/Footer/index.tsx; (I 
+
+
+%object_12Object"
+height"__id*
+22pxJ
+H
+
+__unknown_file (
+
+%sc-P_4_30"__id**
+
+%env"
+
+%scope-P_4äá
+c
+W/home/diviA/Documents/Blinklist/blinklist-app/src/components/organisms/Footer/index.tsxÄ É(
+%reactProps_24Object"Object£
+†
+c
+W/home/diviA/Documents/Blinklist/blinklist-app/src/components/organisms/Footer/index.tsxÄ Ä(& 
+
+%reactProps_24Object"
+sx"__id*
+
+gammaCaption1°
+û
+c
+W/home/diviA/Documents/Blinklist/blinklist-app/src/components/organisms/Footer/index.tsxÄ É(
+%fieldAccess_24"__id**
+
+
+%sc-P_4_30"
+
+Typography—
+Œ
+c
+W/home/diviA/Documents/Blinklist/blinklist-app/src/components/organisms/Footer/index.tsxÄ É(
+%reactElement_24"__reactCreateElement* *
+
+%env*
+
+%fieldAccess_24*
+
+%reactProps_24ObjectâÜ
+b
+W/home/diviA/Documents/Blinklist/blinklist-app/src/components/organisms/Footer/index.tsx Ñ(
+%reactProps_25Object"Object¶
+£
+a
+W/home/diviA/Documents/Blinklist/blinklist-app/src/components/organisms/Footer/index.tsx (L 
+
+%reactProps_25Object"
+sx"__id*
+
+
+%object_12Objectô
+ñ
+b
+W/home/diviA/Documents/Blinklist/blinklist-app/src/components/organisms/Footer/index.tsx Ñ(
+%fieldAccess_25"__id**
+
+
+%sc-P_4_29"
+BoxÊ
+„
+b
+W/home/diviA/Documents/Blinklist/blinklist-app/src/components/organisms/Footer/index.tsx Ñ(
+%reactElement_25"__reactCreateElement* *
+
+%env*
+
+%fieldAccess_25*
+
+%reactProps_25Object*
+
+%reactElement_24âÜ
+b
+W/home/diviA/Documents/Blinklist/blinklist-app/src/components/organisms/Footer/index.tsx, Ö(
+
+%reactProps_26Object"Object•
+¢
+a
+W/home/diviA/Documents/Blinklist/blinklist-app/src/components/organisms/Footer/index.tsx- 1( 
+
+%reactProps_26Object"
+sx"__id*
+
+	%object_4Objectò
+ï
+b
+W/home/diviA/Documents/Blinklist/blinklist-app/src/components/organisms/Footer/index.tsx, Ö(
+
+%fieldAccess_26"__id**
+
+	%sc-P_4_4"
+Box¸
+˘
+b
+W/home/diviA/Documents/Blinklist/blinklist-app/src/components/organisms/Footer/index.tsx, Ö(
+
+%reactElement_26"__reactCreateElement* *
+
+%env*
+
+%fieldAccess_26*
+
+%reactProps_26Object*
+
+%reactElement_23*
+
+%reactElement_25"z
+b
+W/home/diviA/Documents/Blinklist/blinklist-app/src/components/organisms/Footer/index.tsx+ Ü(
+
+%reactElement_26:
+%envB 
