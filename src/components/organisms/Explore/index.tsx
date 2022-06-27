@@ -4,7 +4,7 @@ import Category from "../../molecules/Category";
 import Theme from "../../../Theme/ThemeFile";
 import { useNavigate } from "react-router-dom";
 
-interface ExploreType {
+export interface ExploreType {
   Open: boolean;
 }
 
