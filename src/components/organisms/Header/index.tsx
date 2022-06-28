@@ -3,15 +3,21 @@ import React, { Fragment, useState } from "react";
 import { Typography } from "@mui/material";
 import Explore from "../Explore";
 import { useNavigate } from "react-router-dom";
+import AuthButton from "../../authentication/AuthButton";
+import { useAuth0 } from "@auth0/auth0-react";
 
 const HeaderComponent = () => {
   const [isOpen, setIsOpen] = useState(false);
+
+  const [isAuthOpen, setIsAuthOpen] = useState(false);
 
   let navigate = useNavigate();
 
   const handleClick = () => {
     navigate("/");
   };
+
+  const { user, isAuthenticated } = useAuth0();
 
   const AvatarStyle: React.CSSProperties = {
     fontFamily: "Inter",
@@ -59,25 +65,35 @@ const HeaderComponent = () => {
         <Typography variant="body1" sx={{ paddingLeft: "40.7px" }}>
           My Library
         </Typography>
-        <Box
-          sx={{
-            marginLeft: "456px",
-            background: "#69A6E3",
-            borderRadius: "19px",
-            height: "40px",
-            width: "40px",
-          }}
-        >
-          <Typography sx={AvatarStyle}>A</Typography>
-        </Box>
+        {!isAuthenticated ? (
+          <Typography variant="body1" sx={{ marginLeft: "456px" }}>
+            Account
+          </Typography>
+        ) : (
+          <Box
+            sx={{
+              marginLeft: "456px",
+              background: "#69A6E3",
+              borderRadius: "19px",
+              height: "40px",
+              width: "40px",
+            }}
+          >
+            <Typography sx={AvatarStyle}>
+              {user?.name?.charAt(0).toUpperCase()}
+            </Typography>
+          </Box>
+        )}
         <Box
           component="img"
           src="images/Vector1.png"
           alt="arrow"
           sx={{ paddingLeft: "6.7px", height: "6px", width: "10.61px" }}
+          onClick={() => setIsAuthOpen(!isAuthOpen)}
         ></Box>
       </Box>
       <Explore Open={isOpen} />
+      <AuthButton AuthOpen={isAuthOpen} />
     </Fragment>
   );
 };
