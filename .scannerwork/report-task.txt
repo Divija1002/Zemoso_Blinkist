@@ -3,5 +3,5 @@ projectKey=zemoso-blinkist
 serverUrl=https://sonarcloud.io
 serverVersion=8.0.0.29939
 dashboardUrl=https://sonarcloud.io/dashboard?id=zemoso-blinkist
-ceTaskId=AYGqu92fzyi4qE8e4LAq
-ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AYGqu92fzyi4qE8e4LAq
+ceTaskId=AYGqwy6p7-H9E4dx4hFO
+ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AYGqwy6p7-H9E4dx4hFO
