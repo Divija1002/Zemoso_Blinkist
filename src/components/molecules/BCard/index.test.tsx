@@ -1,9 +1,9 @@
 import React from "react";
 import { render, screen } from "@testing-library/react";
-import BCard, { bCardType } from ".";
+import BCard, { BCardType } from ".";
 import { BrowserRouter } from "react-router-dom";
 
-const BookCard = ({ book, trending, justAdded, featured }: bCardType) => {
+const BookCard = ({ book, trending, justAdded, featured }: BCardType) => {
   return (
     <BrowserRouter>
       <BCard

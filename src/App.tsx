@@ -1,43 +1,40 @@
 import React from "react";
 import "./App.css";
-import Header from "./components/organisms/Header";
-import HeaderTab from "./components/organisms/HeaderTab";
-import Footer from "./components/organisms/Footer";
 import Theme from "./Theme/ThemeFile";
-import { ThemeProvider, Typography, Box } from "@mui/material";
-import Explore from "./components/organisms/Explore";
-import Banner from "./components/molecules/Banner";
-import { TextField } from "@mui/material";
-import { InputAdornment } from "@mui/material";
-import SearchIcon from "@mui/icons-material/Search";
+import { CircularProgress, ThemeProvider, Box } from "@mui/material";
 import BookDetailsView from "./pages/BookDetailsView";
 import Entrepreneurship from "./pages/Entrepreneurship";
 import Library from "./pages/Library";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import Login from "./pages/Login";
+import { useAuth0 } from "@auth0/auth0-react";
 
 function App() {
+  const { isAuthenticated, isLoading } = useAuth0();
+
+  if (isLoading)
+    return (
+      <Box sx={{ paddingX: "800px", paddingTop: "10px" }}>
+        <CircularProgress />
+      </Box>
+    );
+
   return (
     <div className="App">
       <ThemeProvider theme={Theme}>
-        {/* <Library /> */}
-        {/* <Header />
-        <Typography
-          variant="h1"
-          sx={{ paddingLeft: "264px", paddingTop: "89px" }}
-        >
-          My Library
-        </Typography>
-        <HeaderTab tabStyle={Theme.typography.subtitle1} />
-        <BookCard />
-        <Footer /> */}
-        {/* <Explore /> */}
-        {/* <Entrepreneurship /> */}
-        {/* <BookDetailsView /> */}
         <Router>
           <Routes>
-            <Route path="/" element={<Library />} />
-            <Route path="/Entrepreneurship" element={<Entrepreneurship />} />
-            <Route path="/BookDetailsView" element={<BookDetailsView />} />
+            {isAuthenticated ? (
+              <Route path="/" element={<Library />} />
+            ) : (
+              <Route path="/" element={<Login />} />
+            )}
+            {isAuthenticated && (
+              <Route path="/Entrepreneurship" element={<Entrepreneurship />} />
+            )}
+            {isAuthenticated && (
+              <Route path="/BookDetailsView" element={<BookDetailsView />} />
+            )}
           </Routes>
         </Router>
       </ThemeProvider>

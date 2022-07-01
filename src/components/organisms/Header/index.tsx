@@ -1,15 +1,15 @@
 import { Box } from "@mui/system";
 import React, { Fragment, useState } from "react";
-import { Typography } from "@mui/material";
 import Explore from "../Explore";
 import { useNavigate } from "react-router-dom";
-import AuthButton from "../../authentication/AuthButton";
 import { useAuth0 } from "@auth0/auth0-react";
+import LogoutButton from "../../authentication/LogoutButton";
+import Typography from "../../atoms/Typography";
 
 const HeaderComponent = () => {
   const [isOpen, setIsOpen] = useState(false);
 
-  const [isAuthOpen, setIsAuthOpen] = useState(false);
+  const [isLogoutOpen, setIsLogoutOpen] = useState(false);
 
   let navigate = useNavigate();
 
@@ -17,7 +17,7 @@ const HeaderComponent = () => {
     navigate("/");
   };
 
-  const { user, isAuthenticated } = useAuth0();
+  const { user } = useAuth0();
 
   const AvatarStyle: React.CSSProperties = {
     fontFamily: "Inter",
@@ -65,35 +65,31 @@ const HeaderComponent = () => {
         <Typography variant="body1" sx={{ paddingLeft: "40.7px" }}>
           My Library
         </Typography>
-        {!isAuthenticated ? (
-          <Typography variant="body1" sx={{ marginLeft: "456px" }}>
-            Account
+        <Box
+          sx={{
+            marginLeft: "456px",
+            background: "#69A6E3",
+            borderRadius: "19px",
+            height: "40px",
+            width: "40px",
+          }}
+        >
+          <Typography sx={AvatarStyle}>
+            {user?.name?.charAt(0).toUpperCase()}
           </Typography>
-        ) : (
-          <Box
-            sx={{
-              marginLeft: "456px",
-              background: "#69A6E3",
-              borderRadius: "19px",
-              height: "40px",
-              width: "40px",
-            }}
-          >
-            <Typography sx={AvatarStyle}>
-              {user?.name?.charAt(0).toUpperCase()}
-            </Typography>
-          </Box>
-        )}
+        </Box>
         <Box
           component="img"
           src="images/Vector1.png"
           alt="arrow"
           sx={{ paddingLeft: "6.7px", height: "6px", width: "10.61px" }}
-          onClick={() => setIsAuthOpen(!isAuthOpen)}
+          onClick={() => setIsLogoutOpen(!isLogoutOpen)}
         ></Box>
       </Box>
       <Explore Open={isOpen} />
-      <AuthButton AuthOpen={isAuthOpen} />
+      <Box sx={{ position: "fixed", zIndex: 10, marginLeft: "1150px" }}>
+        <LogoutButton LogoutOpen={isLogoutOpen} />
+      </Box>
     </Fragment>
   );
 };

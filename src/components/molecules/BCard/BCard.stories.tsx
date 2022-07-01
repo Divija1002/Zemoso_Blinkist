@@ -1,4 +1,4 @@
-import BCard, { bCardType } from ".";
+import BCard, { BCardType } from ".";
 import { Story } from "@storybook/react";
 import { BrowserRouter } from "react-router-dom";
 
@@ -7,7 +7,7 @@ export default {
   component: BCard,
 };
 
-const Template: Story<bCardType> = (args) => (
+const Template: Story<BCardType> = (args) => (
   <BrowserRouter>
     <BCard {...args} />
   </BrowserRouter>

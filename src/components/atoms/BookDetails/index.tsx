@@ -1,4 +1,5 @@
-import { Box, CardMedia, Typography } from "@mui/material";
+import { Box, CardMedia } from "@mui/material";
+import Typography from "../Typography";
 import React from "react";
 
 export interface BookDetailsType {

@@ -1,8 +1,15 @@
 import { Fragment } from "react";
-import { Box, Button, Typography } from "@mui/material";
+import { Box, Button } from "@mui/material";
 import BookDetails from "../../atoms/BookDetails";
 import axios from "axios";
 import React, { useEffect, useState } from "react";
+import Typography from "../../atoms/Typography";
+import {
+  BOOK_DETAILS_VIEW_SUBTITLE,
+  READ_NOW,
+  FINISHED_READING,
+  SEND_TO_KINDLE,
+} from "../../Constants";
 
 export interface BookDetailsVType {
   id?: number;
@@ -97,7 +104,7 @@ const BookDetailsV = ({ id }: BookDetailsVType) => {
                   {book.title}
                 </Typography>
                 <Typography sx={{ subtitle5 }}>
-                  Turning Your Business into an Enduring Great Company
+                  {BOOK_DETAILS_VIEW_SUBTITLE}
                 </Typography>
                 <Typography variant="body1">{book.author}</Typography>
                 <BookDetails readTime={book.readTime} />
@@ -120,7 +127,7 @@ const BookDetailsV = ({ id }: BookDetailsVType) => {
                 onClick={() => statusToreading(book)}
                 disabled={book.status === "reading" ? true : false}
               >
-                Read now
+                {READ_NOW}
               </Button>
               <Button
                 variant="contained"
@@ -130,7 +137,7 @@ const BookDetailsV = ({ id }: BookDetailsVType) => {
                   book.status === ("finished" || "fresh") ? true : false
                 }
               >
-                Finished Reading
+                {FINISHED_READING}
               </Button>
               <Box sx={{ height: "44px", width: "151px", display: "flex" }}>
                 <Typography
@@ -141,7 +148,7 @@ const BookDetailsV = ({ id }: BookDetailsVType) => {
                     padding: "12px",
                   }}
                 >
-                  Send To Kindle
+                  {SEND_TO_KINDLE}
                 </Typography>
                 <Box
                   component="img"

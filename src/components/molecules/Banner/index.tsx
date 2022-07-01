@@ -1,6 +1,7 @@
-import { Typography } from "@mui/material";
 import { Box } from "@mui/system";
 import React from "react";
+import Typography from "../../atoms/Typography";
+import { BANNER_TITLE, BANNER_SUBTITLE } from "../../Constants";
 
 const Banner = () => {
   return (
@@ -24,9 +25,7 @@ const Banner = () => {
               color: "#03314B",
             }}
           >
-            <Typography variant="h1">
-              Explore Books on entrepreneurship
-            </Typography>
+            <Typography variant="h1">{BANNER_TITLE}</Typography>
           </Box>
           <Box
             sx={{
@@ -37,10 +36,7 @@ const Banner = () => {
               color: "#6D787E",
             }}
           >
-            <Typography variant="subtitle2">
-              Everything you need to know about thriving on a shoestring budget,
-              making your first million, and hiring right from the start.
-            </Typography>
+            <Typography variant="subtitle2">{BANNER_SUBTITLE}</Typography>
           </Box>
         </Box>
         <Box

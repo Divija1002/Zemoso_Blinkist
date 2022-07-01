@@ -1,12 +1,9 @@
-import React, { Fragment, useState } from "react";
-import Header from "../../components/organisms/Header";
-import { Typography, Box, CircularProgress } from "@mui/material";
-import HeaderTab from "../../components/organisms/HeaderTab";
-import Footer from "../../components/organisms/Footer";
+import React, { Fragment, useState, useEffect } from "react";
+import { Typography, Box } from "@mui/material";
+import HeaderTab from "../../components/molecules/HeaderTab";
 import Theme from "../../Theme/ThemeFile";
 import BasicTemplate from "../../components/templates/BasicTemplate";
 import axios from "axios";
-import { useEffect } from "react";
 import BCard from "../../components/molecules/BCard";
 
 interface BookType {
@@ -17,12 +14,6 @@ interface BookType {
   readTime: number;
   readersCount?: string;
   status: string;
-}
-
-let loading = true;
-
-interface BookCardType {
-  value: string;
 }
 
 const Library = () => {
@@ -38,7 +29,6 @@ const Library = () => {
     axios
       .get("http://localhost:8000/bookInfo")
       .then((response) => {
-        loading = false;
         console.log(response);
         setBooks(response.data);
       })
@@ -76,14 +66,10 @@ const Library = () => {
             paddingX={"259px"}
             paddingTop={"25px"}
           >
-            {loading ? (
-              <CircularProgress />
-            ) : (
-              books.map((book) =>
-                book.status === value ? (
-                  <BCard book={book} key={book.id}></BCard>
-                ) : null
-              )
+            {books.map((book) =>
+              book.status === value ? (
+                <BCard book={book} key={book.id}></BCard>
+              ) : null
             )}
           </Box>
         </Fragment>

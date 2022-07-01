@@ -1,10 +1,8 @@
 import React from "react";
-import { css } from "styled-components";
-import styled from "styled-components";
-import { Typography } from "@mui/material";
-import { Button } from "@mui/material";
-import { Box } from "@mui/material";
+import styled, { css } from "styled-components";
+import { Button, Box } from "@mui/material";
 import AddIcon from "@mui/icons-material/Add";
+import Typography from "../Typography";
 
 export interface ButtonType {
   value: string;

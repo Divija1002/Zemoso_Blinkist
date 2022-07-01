@@ -1,5 +1,6 @@
 import React from "react";
-import { Box, Typography } from "@mui/material";
+import { Box } from "@mui/material";
+import Typography from "../../atoms/Typography";
 
 export interface CategoryProps {
   image: string;

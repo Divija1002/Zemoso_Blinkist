@@ -1,8 +1,9 @@
-import { Box, Divider, Typography, Grid, Tab, Tabs } from "@mui/material";
+import { Box, Divider, Grid, Tab, Tabs } from "@mui/material";
 import React from "react";
 import Category from "../../molecules/Category";
 import Theme from "../../../Theme/ThemeFile";
 import { useNavigate } from "react-router-dom";
+import { NAV_ITEMS } from "../../Constants";
 
 export interface ExploreType {
   Open: boolean;
@@ -17,98 +18,7 @@ const Explore = ({ Open }: ExploreType) => {
 
   if (!Open) return null;
 
-  const NavItems = [
-    {
-      id: 1,
-      img: "images/Vector4.png",
-      value: "Entrepreneurship",
-    },
-    {
-      id: 2,
-      img: "images/Vector5.png",
-      value: "Politics",
-    },
-    {
-      id: 3,
-      img: "images/Vector6.png",
-      value: "Marketing & Sales",
-    },
-    {
-      id: 4,
-      img: "images/Vector7.png",
-      value: "Science",
-    },
-    {
-      id: 5,
-      img: "images/Vector8.png",
-      value: "Health & Nutrition",
-    },
-    {
-      id: 6,
-      img: "images/Vector9.png",
-      value: "Personal Development",
-    },
-    {
-      id: 7,
-      img: "images/Vector10.png",
-      value: "Economics",
-    },
-    {
-      id: 8,
-      img: "images/Vector11.png",
-      value: "History",
-    },
-    {
-      id: 9,
-      img: "images/Vector12.png",
-      value: "Communication Skills",
-    },
-    {
-      id: 10,
-      img: "images/Vector13.png",
-      value: "Corporate Culture",
-    },
-    {
-      id: 11,
-      img: "images/Vector14.png",
-      value: "Motivation & Inspiration",
-    },
-    {
-      id: 12,
-      img: "images/Vector15.png",
-      value: "Money & Investments",
-    },
-    {
-      id: 13,
-      img: "images/Vector16.png",
-      value: "Psychology",
-    },
-    {
-      id: 14,
-      img: "images/Vector17.png",
-      value: "Productivity",
-    },
-    {
-      id: 15,
-      img: "images/Vector18.png",
-      value: "Sex & Relationship",
-    },
-    {
-      id: 16,
-      img: "images/Vector19.png",
-      value: "Nature & Environment",
-    },
-    {
-      id: 17,
-      img: "images/Vector20.png",
-      value: "Career & Success",
-    },
-    {
-      id: 18,
-      img: "images/Vector21.png",
-      value: "Education",
-    },
-  ];
+  const NavItems = NAV_ITEMS;
 
   const subtitle3: React.CSSProperties = {
     fontFamily: "Cera Pro",

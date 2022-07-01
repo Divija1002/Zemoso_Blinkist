@@ -1,0 +1,302 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Entrepreneurship snapshot Entrpreneurship page testing 1`] = `
+Array [
+  <div
+    className="MuiBox-root css-1mvk6tf"
+  >
+    <img
+      alt="logo"
+      className="MuiBox-root css-1parqao"
+      onClick={[Function]}
+      src="images/Blinklist 1.png"
+    />
+    <img
+      alt="logo"
+      className="MuiBox-root css-1oqfcha"
+      src="images/Vector.png"
+    />
+    <p
+      className="MuiTypography-root MuiTypography-body1 css-sqc3pa-MuiTypography-root"
+    >
+      Explore
+    </p>
+    <img
+      alt="arrow"
+      className="MuiBox-root css-1s8et9c"
+      onClick={[Function]}
+      src="images/Vector1.png"
+    />
+    <p
+      className="MuiTypography-root MuiTypography-body1 css-kfnt82-MuiTypography-root"
+    >
+      My Library
+    </p>
+    <div
+      className="MuiBox-root css-xo4s73"
+    >
+      <p
+        className="MuiTypography-root MuiTypography-body1 css-4yn7uo-MuiTypography-root"
+      />
+    </div>
+    <img
+      alt="arrow"
+      className="MuiBox-root css-1s8et9c"
+      onClick={[Function]}
+      src="images/Vector1.png"
+    />
+  </div>,
+  <div
+    className="MuiBox-root css-1kqchqf"
+  />,
+  <div
+    className="MuiBox-root css-l0eg0a"
+  >
+    <div
+      className="MuiBox-root css-k008qs"
+    >
+      <div
+        className="MuiBox-root css-j7qwjs"
+      >
+        <div
+          className="MuiBox-root css-10ybs0l"
+        >
+          <h1
+            className="MuiTypography-root MuiTypography-h1 css-o2w69a-MuiTypography-root"
+          >
+            Explore Books on entrepreneurship
+          </h1>
+        </div>
+        <div
+          className="MuiBox-root css-1t1xgc0"
+        >
+          <h6
+            className="MuiTypography-root MuiTypography-subtitle2 css-ati914-MuiTypography-root"
+          >
+            Everything you need to know about thriving on a shoestring budget, making your first million, and hiring right from the start.
+          </h6>
+        </div>
+      </div>
+      <img
+        alt="banner"
+        className="MuiBox-root css-isrw60"
+        src="images/banner.png"
+      />
+    </div>
+  </div>,
+  <div
+    className="MuiBox-root css-wd6d1g"
+  >
+    <svg
+      aria-hidden={true}
+      className="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+      data-testid="SearchIcon"
+      focusable="false"
+      viewBox="0 0 24 24"
+    >
+      <path
+        d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"
+      />
+    </svg>
+    <div
+      className="MuiFormControl-root MuiTextField-root css-1u3bzj6-MuiFormControl-root-MuiTextField-root"
+      style={
+        Object {
+          "width": "658px",
+        }
+      }
+    >
+      <label
+        className="MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-standard MuiFormLabel-root MuiFormLabel-colorPrimary css-aqpgxn-MuiFormLabel-root-MuiInputLabel-root"
+        data-shrink={false}
+        htmlFor="standard-basic"
+        id="standard-basic-label"
+      >
+        Search by title or author
+      </label>
+      <div
+        className="MuiInput-root MuiInput-underline MuiInputBase-root MuiInputBase-colorPrimary MuiInputBase-formControl css-1ptx2yq-MuiInputBase-root-MuiInput-root"
+        onClick={[Function]}
+      >
+        <input
+          aria-invalid={false}
+          autoFocus={false}
+          className="MuiInput-input MuiInputBase-input css-1x51dt5-MuiInputBase-input-MuiInput-input"
+          disabled={false}
+          id="standard-basic"
+          onAnimationStart={[Function]}
+          onBlur={[Function]}
+          onChange={[Function]}
+          onFocus={[Function]}
+          required={false}
+          type="text"
+          value=""
+        />
+      </div>
+    </div>
+  </div>,
+  <div
+    className="MuiBox-root css-1k9euxb"
+  >
+    <h3
+      className="MuiTypography-root MuiTypography-h3 css-1jybd6-MuiTypography-root"
+    >
+      Trending blinks
+    </h3>
+  </div>,
+  <div
+    className="MuiBox-root css-pob5tk"
+  />,
+  <div
+    className="MuiBox-root css-1k9euxb"
+  >
+    <h3
+      className="MuiTypography-root MuiTypography-h3 css-1jybd6-MuiTypography-root"
+    >
+      Just added
+    </h3>
+  </div>,
+  <div
+    className="MuiBox-root css-7n55bm"
+  />,
+  <div
+    className="MuiBox-root css-1k9euxb"
+  >
+    <h3
+      className="MuiTypography-root MuiTypography-h3 css-1jybd6-MuiTypography-root"
+    >
+      Featured audio blinks
+    </h3>
+  </div>,
+  <div
+    className="MuiBox-root css-7n55bm"
+  />,
+  <div
+    className="MuiBox-root css-12ntjjl"
+  >
+    <div
+      className="MuiBox-root css-1m9j77u"
+    >
+      <div
+        className="MuiBox-root css-1ivgbss"
+      >
+        <img
+          alt="logo"
+          className="MuiBox-root css-15p9n5u"
+          src="images/Blinklist 1.png"
+        />
+        <div
+          className="MuiBox-root css-gnbw2f"
+        >
+          <p
+            className="MuiTypography-root MuiTypography-body1 css-147xq6v-MuiTypography-root"
+          >
+            Big ideas in small packages Start learnign now
+          </p>
+        </div>
+      </div>
+      <div
+        className="MuiBox-root css-i09f21"
+      >
+        <p
+          className="MuiTypography-root MuiTypography-body1 css-1ly8ndt-MuiTypography-root"
+        >
+          Editorial
+        </p>
+        <p
+          className="MuiTypography-root MuiTypography-body1 css-1a3wegw-MuiTypography-root"
+        >
+          Book lists
+        </p>
+        <p
+          className="MuiTypography-root MuiTypography-body1 css-1a3wegw-MuiTypography-root"
+        >
+          What is Nonfiction?
+        </p>
+        <p
+          className="MuiTypography-root MuiTypography-body1 css-1a3wegw-MuiTypography-root"
+        >
+          What to read next?
+        </p>
+        <p
+          className="MuiTypography-root MuiTypography-body1 css-1a3wegw-MuiTypography-root"
+        >
+          Benefits of reading
+        </p>
+      </div>
+      <div
+        className="MuiBox-root css-i09f21"
+      >
+        <p
+          className="MuiTypography-root MuiTypography-body1 css-1ly8ndt-MuiTypography-root"
+        >
+          Useful links
+        </p>
+        <p
+          className="MuiTypography-root MuiTypography-body1 css-1a3wegw-MuiTypography-root"
+        >
+          Pricing
+        </p>
+        <p
+          className="MuiTypography-root MuiTypography-body1 css-1a3wegw-MuiTypography-root"
+        >
+          Blinkist business
+        </p>
+        <p
+          className="MuiTypography-root MuiTypography-body1 css-1a3wegw-MuiTypography-root"
+        >
+          Gift cards
+        </p>
+        <p
+          className="MuiTypography-root MuiTypography-body1 css-1a3wegw-MuiTypography-root"
+        >
+          Blinkist magaine
+        </p>
+        <p
+          className="MuiTypography-root MuiTypography-body1 css-1a3wegw-MuiTypography-root"
+        >
+          Contact & help
+        </p>
+      </div>
+      <div
+        className="MuiBox-root css-i09f21"
+      >
+        <p
+          className="MuiTypography-root MuiTypography-body1 css-1ly8ndt-MuiTypography-root"
+        >
+          Company
+        </p>
+        <p
+          className="MuiTypography-root MuiTypography-body1 css-1a3wegw-MuiTypography-root"
+        >
+          About
+        </p>
+        <p
+          className="MuiTypography-root MuiTypography-body1 css-1a3wegw-MuiTypography-root"
+        >
+          Careers
+        </p>
+        <p
+          className="MuiTypography-root MuiTypography-body1 css-1a3wegw-MuiTypography-root"
+        >
+          partners
+        </p>
+        <p
+          className="MuiTypography-root MuiTypography-body1 css-1a3wegw-MuiTypography-root"
+        >
+          Code of Conduct
+        </p>
+      </div>
+    </div>
+    <div
+      className="MuiBox-root css-1io1hfo"
+    >
+      <p
+        className="MuiTypography-root MuiTypography-body1 css-89tq0x-MuiTypography-root"
+      >
+        © Blinkist 2021 Sitemap | Imprint | Terms of Service | Privacy Policies
+      </p>
+    </div>
+  </div>,
+]
+`;

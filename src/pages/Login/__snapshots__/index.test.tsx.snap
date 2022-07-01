@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Login page Snapshot Login page testing 1`] = `
+Array [
+  <h1
+    className="MuiTypography-root MuiTypography-h1 css-sqoje6-MuiTypography-root"
+  >
+    You are Logged Out
+  </h1>,
+  <div
+    className="MuiBox-root css-xcbaci"
+  >
+    <button
+      onClick={[Function]}
+    >
+      Log In
+    </button>
+  </div>,
+]
+`;

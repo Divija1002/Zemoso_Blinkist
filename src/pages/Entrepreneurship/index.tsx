@@ -1,14 +1,15 @@
-import { Fragment } from "react";
 import axios from "axios";
-import React, { useEffect, useState } from "react";
-import Header from "../../components/organisms/Header";
-import Footer from "../../components/organisms/Footer";
-import { Box, Typography } from "@mui/material";
-import { TextField } from "@mui/material";
+import React, { useEffect, useState, Fragment } from "react";
+import { Box, Typography, TextField } from "@mui/material";
 import SearchIcon from "@mui/icons-material/Search";
 import Banner from "../../components/molecules/Banner";
 import BCard from "../../components/molecules/BCard";
 import BasicTemplate from "../../components/templates/BasicTemplate";
+import {
+  FEATURED_AUDIO_BLINK,
+  JUST_ADDED,
+  TRENDING_BOOKS,
+} from "../../components/Constants";
 
 interface BookType {
   id: number;
@@ -21,26 +22,11 @@ interface BookType {
 }
 
 const Entrepreneurship = () => {
-  const TrendingBooks = [
-    "Being Boss",
-    "Beyond Entrepreneurship",
-    "Employee to Entrepreneur",
-    "The Fate of Food",
-    "Lives of the Stoics",
-    "Loving Your Business",
-  ];
+  const TrendingBooks = TRENDING_BOOKS;
 
-  const JustAdded = [
-    "The Lonely Century",
-    "Eat Better, Feel Better",
-    "Dropshipping",
-  ];
+  const JustAdded = JUST_ADDED;
 
-  const FeaturedAudioBlink = [
-    "Bring Your Human to Work",
-    "Beyond Entrepreneurship 2.0",
-    "Doesn’t Hurt to Ask",
-  ];
+  const FeaturedAudioBlink = FEATURED_AUDIO_BLINK;
 
   const [books, setBooks] = useState<BookType[]>([]);
 

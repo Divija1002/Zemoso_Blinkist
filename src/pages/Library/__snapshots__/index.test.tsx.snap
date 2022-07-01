@@ -1,0 +1,269 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Library page snapshot library page testing 1`] = `
+Array [
+  <div
+    className="MuiBox-root css-1mvk6tf"
+  >
+    <img
+      alt="logo"
+      className="MuiBox-root css-1parqao"
+      onClick={[Function]}
+      src="images/Blinklist 1.png"
+    />
+    <img
+      alt="logo"
+      className="MuiBox-root css-1oqfcha"
+      src="images/Vector.png"
+    />
+    <p
+      className="MuiTypography-root MuiTypography-body1 css-sqc3pa-MuiTypography-root"
+    >
+      Explore
+    </p>
+    <img
+      alt="arrow"
+      className="MuiBox-root css-1s8et9c"
+      onClick={[Function]}
+      src="images/Vector1.png"
+    />
+    <p
+      className="MuiTypography-root MuiTypography-body1 css-kfnt82-MuiTypography-root"
+    >
+      My Library
+    </p>
+    <div
+      className="MuiBox-root css-xo4s73"
+    >
+      <p
+        className="MuiTypography-root MuiTypography-body1 css-4yn7uo-MuiTypography-root"
+      />
+    </div>
+    <img
+      alt="arrow"
+      className="MuiBox-root css-1s8et9c"
+      onClick={[Function]}
+      src="images/Vector1.png"
+    />
+  </div>,
+  <div
+    className="MuiBox-root css-1kqchqf"
+  />,
+  <h1
+    className="MuiTypography-root MuiTypography-h1 css-1bdjrp5-MuiTypography-root"
+  >
+    My Library
+  </h1>,
+  <div
+    className="MuiBox-root css-ws5588"
+  >
+    <div
+      className="MuiTabs-root MuiBox-root css-mm6aji-MuiTabs-root"
+    >
+      <div
+        className="MuiTabs-scroller MuiTabs-fixed css-jpln7h-MuiTabs-scroller"
+        onScroll={[Function]}
+        style={
+          Object {
+            "marginBottom": -0,
+            "overflow": "hidden",
+          }
+        }
+      >
+        <div
+          aria-orientation={null}
+          className="MuiTabs-flexContainer css-heg063-MuiTabs-flexContainer"
+          onKeyDown={[Function]}
+          role="tablist"
+        >
+          <button
+            aria-selected={true}
+            className="MuiButtonBase-root MuiTab-root MuiTab-textColorPrimary Mui-selected css-q83bq9-MuiButtonBase-root-MuiTab-root"
+            disabled={false}
+            onBlur={[Function]}
+            onClick={[Function]}
+            onContextMenu={[Function]}
+            onDragLeave={[Function]}
+            onFocus={[Function]}
+            onKeyDown={[Function]}
+            onKeyUp={[Function]}
+            onMouseDown={[Function]}
+            onMouseLeave={[Function]}
+            onMouseUp={[Function]}
+            onTouchEnd={[Function]}
+            onTouchMove={[Function]}
+            onTouchStart={[Function]}
+            role="tab"
+            tabIndex={0}
+            type="button"
+          >
+            Currently reading
+            <span
+              className="MuiTabs-indicator css-1aquho2-MuiTabs-indicator"
+              style={
+                Object {
+                  "backgroundColor": "#22C870",
+                  "width": "304px",
+                }
+              }
+            />
+          </button>
+          <button
+            aria-selected={false}
+            className="MuiButtonBase-root MuiTab-root MuiTab-textColorPrimary css-1a47dtf-MuiButtonBase-root-MuiTab-root"
+            disabled={false}
+            onBlur={[Function]}
+            onClick={[Function]}
+            onContextMenu={[Function]}
+            onDragLeave={[Function]}
+            onFocus={[Function]}
+            onKeyDown={[Function]}
+            onKeyUp={[Function]}
+            onMouseDown={[Function]}
+            onMouseLeave={[Function]}
+            onMouseUp={[Function]}
+            onTouchEnd={[Function]}
+            onTouchMove={[Function]}
+            onTouchStart={[Function]}
+            role="tab"
+            tabIndex={-1}
+            type="button"
+          >
+            Finished
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>,
+  <div
+    className="MuiBox-root css-9b5rya"
+  />,
+  <div
+    className="MuiBox-root css-12ntjjl"
+  >
+    <div
+      className="MuiBox-root css-1m9j77u"
+    >
+      <div
+        className="MuiBox-root css-1ivgbss"
+      >
+        <img
+          alt="logo"
+          className="MuiBox-root css-15p9n5u"
+          src="images/Blinklist 1.png"
+        />
+        <div
+          className="MuiBox-root css-gnbw2f"
+        >
+          <p
+            className="MuiTypography-root MuiTypography-body1 css-147xq6v-MuiTypography-root"
+          >
+            Big ideas in small packages Start learnign now
+          </p>
+        </div>
+      </div>
+      <div
+        className="MuiBox-root css-i09f21"
+      >
+        <p
+          className="MuiTypography-root MuiTypography-body1 css-1ly8ndt-MuiTypography-root"
+        >
+          Editorial
+        </p>
+        <p
+          className="MuiTypography-root MuiTypography-body1 css-1a3wegw-MuiTypography-root"
+        >
+          Book lists
+        </p>
+        <p
+          className="MuiTypography-root MuiTypography-body1 css-1a3wegw-MuiTypography-root"
+        >
+          What is Nonfiction?
+        </p>
+        <p
+          className="MuiTypography-root MuiTypography-body1 css-1a3wegw-MuiTypography-root"
+        >
+          What to read next?
+        </p>
+        <p
+          className="MuiTypography-root MuiTypography-body1 css-1a3wegw-MuiTypography-root"
+        >
+          Benefits of reading
+        </p>
+      </div>
+      <div
+        className="MuiBox-root css-i09f21"
+      >
+        <p
+          className="MuiTypography-root MuiTypography-body1 css-1ly8ndt-MuiTypography-root"
+        >
+          Useful links
+        </p>
+        <p
+          className="MuiTypography-root MuiTypography-body1 css-1a3wegw-MuiTypography-root"
+        >
+          Pricing
+        </p>
+        <p
+          className="MuiTypography-root MuiTypography-body1 css-1a3wegw-MuiTypography-root"
+        >
+          Blinkist business
+        </p>
+        <p
+          className="MuiTypography-root MuiTypography-body1 css-1a3wegw-MuiTypography-root"
+        >
+          Gift cards
+        </p>
+        <p
+          className="MuiTypography-root MuiTypography-body1 css-1a3wegw-MuiTypography-root"
+        >
+          Blinkist magaine
+        </p>
+        <p
+          className="MuiTypography-root MuiTypography-body1 css-1a3wegw-MuiTypography-root"
+        >
+          Contact & help
+        </p>
+      </div>
+      <div
+        className="MuiBox-root css-i09f21"
+      >
+        <p
+          className="MuiTypography-root MuiTypography-body1 css-1ly8ndt-MuiTypography-root"
+        >
+          Company
+        </p>
+        <p
+          className="MuiTypography-root MuiTypography-body1 css-1a3wegw-MuiTypography-root"
+        >
+          About
+        </p>
+        <p
+          className="MuiTypography-root MuiTypography-body1 css-1a3wegw-MuiTypography-root"
+        >
+          Careers
+        </p>
+        <p
+          className="MuiTypography-root MuiTypography-body1 css-1a3wegw-MuiTypography-root"
+        >
+          partners
+        </p>
+        <p
+          className="MuiTypography-root MuiTypography-body1 css-1a3wegw-MuiTypography-root"
+        >
+          Code of Conduct
+        </p>
+      </div>
+    </div>
+    <div
+      className="MuiBox-root css-1io1hfo"
+    >
+      <p
+        className="MuiTypography-root MuiTypography-body1 css-89tq0x-MuiTypography-root"
+      >
+        © Blinkist 2021 Sitemap | Imprint | Terms of Service | Privacy Policies
+      </p>
+    </div>
+  </div>,
+]
+`;

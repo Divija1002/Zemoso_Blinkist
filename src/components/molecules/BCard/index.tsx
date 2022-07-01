@@ -1,6 +1,5 @@
-import React from "react";
+import React, { Fragment } from "react";
 import { Card, Box } from "@mui/material";
-import { Fragment } from "react";
 import BookDetails from "../../atoms/BookDetails";
 import BookImage from "../../atoms/BookImage";
 import BookThumbNail from "../../atoms/BookThumbnail";
@@ -8,8 +7,9 @@ import Button from "../../atoms/Button";
 import ProgressBar from "../../atoms/ProgressBar";
 import { useNavigate } from "react-router-dom";
 import axios from "axios";
+import { ADD_TO_LIBRARY, FINISHED, READ_AGAIN } from "../../Constants";
 
-export interface bCardType {
+export interface BCardType {
   book: {
     id: number;
     image: string;
@@ -42,7 +42,7 @@ interface BookType {
   status: string;
 }
 
-const BCard = ({ book, trending, justAdded, featured }: bCardType) => {
+const BCard = ({ book, trending, justAdded, featured }: BCardType) => {
   let navigate = useNavigate();
 
   const handleClick = (bookId: number) => {
@@ -100,7 +100,7 @@ const BCard = ({ book, trending, justAdded, featured }: bCardType) => {
                 variant="text"
                 onClick={() => statusToreading(book)}
               >
-                Add to library
+                {ADD_TO_LIBRARY}
               </Button>
             </Box>
           )
@@ -110,7 +110,7 @@ const BCard = ({ book, trending, justAdded, featured }: bCardType) => {
             variant="text"
             onClick={() => statusTofinished(book)}
           >
-            Finished
+            {FINISHED}
           </Button>
         ) : book.status === "finished" ? (
           <Button
@@ -118,7 +118,7 @@ const BCard = ({ book, trending, justAdded, featured }: bCardType) => {
             variant="text"
             onClick={() => statusToreading(book)}
           >
-            Read again
+            {READ_AGAIN}
           </Button>
         ) : (
           <Box sx={{ marginTop: "10px", border: "1px solid #E1ECFC" }}>
@@ -127,7 +127,7 @@ const BCard = ({ book, trending, justAdded, featured }: bCardType) => {
               variant="text"
               onClick={() => statusToreading(book)}
             >
-              Add to library
+              {ADD_TO_LIBRARY}
             </Button>
           </Box>
         )}
