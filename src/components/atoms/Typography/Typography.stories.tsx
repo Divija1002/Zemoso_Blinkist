@@ -10,9 +10,9 @@ const Template: Story<TypographyTextType> = (args) => (
   <TypographyText {...args}>Typography</TypographyText>
 );
 
-export const Typography = Template.bind({});
+export const Text = Template.bind({});
 
-Typography.args = {
+Text.args = {
   variant: "h1",
   sx: {},
 };
