@@ -2,7 +2,7 @@ import React from "react";
 import { Typography, Theme } from "@mui/material";
 import { SxProps } from "@mui/system";
 
-interface TypographyTextType {
+export interface TypographyTextType {
   variant?:
     | "h1"
     | "h2"

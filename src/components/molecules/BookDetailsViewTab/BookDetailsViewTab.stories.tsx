@@ -1,8 +1,12 @@
 import BookDetailsViewTab from ".";
 
 export default {
-  title: "components/organisms/BookDetailsViewTab",
+  title: "components/molecules/BookDetailsViewTab",
   component: BookDetailsViewTab,
 };
 
-export const bookDetailsTab = () => <BookDetailsViewTab />;
+const passValue = (value: string) => {};
+
+export const bookDetailsTab = () => (
+  <BookDetailsViewTab passValue={passValue} />
+);
