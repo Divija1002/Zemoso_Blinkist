@@ -17,7 +17,7 @@ interface HeaderTabType {
 const HeaderTab = ({ tabStyle, passValue }: HeaderTabType) => {
   const [value, setValue] = React.useState("Currently reading");
 
-  const handleChange = (event: React.SyntheticEvent, newValue: string) => {
+  const handleChange = (_event: React.SyntheticEvent, newValue: string) => {
     setValue(newValue);
     newValue === "Finished" ? passValue("finished") : passValue("reading");
   };

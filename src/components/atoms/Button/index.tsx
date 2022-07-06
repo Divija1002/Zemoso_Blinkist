@@ -17,26 +17,26 @@ const StyledButton = styled(Button)<ButtonType>`
   padding-bottom: 10px;
   /* padding-right: 111px; */
   width: 284px;
+  color: #22c870;
   ${(props) =>
-    props.value === "Finished"
-      ? css`
-          color: #0365f2;
-        `
-      : props.value === "Add to library"
-      ? css`
-          color: #0365f2;
-          &:hover {
-            background-color: #0365f2;
-            color: #ffffff;
-          }
-        `
-      : props.value === "Read again"
-      ? css`
-          color: #0365f2;
-        `
-      : css`
-          color: #22c870;
-        `};
+    props.value === "Finished" &&
+    css`
+      color: #0365f2;
+    `};
+  ${(props) =>
+    props.value === "Add to library" &&
+    css`
+      color: #0365f2;
+      &:hover {
+        background-color: #0365f2;
+        color: #ffffff;
+      }
+    `}
+  ${(props) =>
+    props.value === "Read again" &&
+    css`
+      color: #0365f2;
+    `}
 `;
 
 const SButton = ({ value, children, variant, onClick }: ButtonType) => {

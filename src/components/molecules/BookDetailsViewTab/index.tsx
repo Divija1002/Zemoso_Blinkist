@@ -9,7 +9,7 @@ interface BookDetailsViewTabType {
 const BookDetailsViewTab = ({ passValue }: BookDetailsViewTabType) => {
   const [value, setValue] = React.useState("Synopsis");
 
-  const handleChange = (event: React.SyntheticEvent, newValue: string) => {
+  const handleChange = (_event: React.SyntheticEvent, newValue: string) => {
     setValue(newValue);
     passValue(newValue);
   };

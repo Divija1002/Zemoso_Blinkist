@@ -49,10 +49,10 @@ const BCard = ({ book, trending, justAdded, featured }: BCardType) => {
     navigate("/BookDetailsView", { state: { id: bookId } });
   };
 
-  const statusTofinished = (book: BookType) => {
-    book.status = "finished";
+  const statusTofinished = (changeBook: BookType) => {
+    changeBook.status = "finished";
     axios
-      .patch(`http://localhost:8000/bookInfo/${book.id}`, book)
+      .patch(`http://localhost:8000/bookInfo/${changeBook.id}`, changeBook)
       .then((response) => {
         console.log(response);
       })
@@ -61,10 +61,10 @@ const BCard = ({ book, trending, justAdded, featured }: BCardType) => {
       });
   };
 
-  const statusToreading = (book: BookType) => {
-    book.status = "reading";
+  const statusToreading = (changeBook: BookType) => {
+    changeBook.status = "reading";
     axios
-      .patch(`http://localhost:8000/bookInfo/${book.id}`, book)
+      .patch(`http://localhost:8000/bookInfo/${changeBook.id}`, changeBook)
       .then((response) => {
         console.log(response);
       })
@@ -79,32 +79,21 @@ const BCard = ({ book, trending, justAdded, featured }: BCardType) => {
         <BookImage image={book.image} onClick={() => handleClick(book.id)} />
         <BookThumbNail title={book.title} author={book.author} />
         <BookDetails readTime={book.readTime} readerCount={book.readersCount} />
-        {trending || justAdded || featured ? (
-          book.status !== "fresh" ? (
-            <Box
-              component="img"
-              src="images/Vector23.png"
-              alt="dots"
-              sx={{
-                height: "4px",
-                width: "18px",
-                paddingLeft: "247px",
-                paddingTop: "21px",
-                paddingBottom: "13px",
-              }}
-            ></Box>
-          ) : (
-            <Box sx={{ marginTop: "10px", border: "1px solid #E1ECFC" }}>
-              <Button
-                value="Add to library"
-                variant="text"
-                onClick={() => statusToreading(book)}
-              >
-                {ADD_TO_LIBRARY}
-              </Button>
-            </Box>
-          )
-        ) : book.status === "reading" ? (
+        {(trending || justAdded || featured) && book.status !== "fresh" && (
+          <Box
+            component="img"
+            src="images/Vector23.png"
+            alt="dots"
+            sx={{
+              height: "4px",
+              width: "18px",
+              paddingLeft: "247px",
+              paddingTop: "21px",
+              paddingBottom: "13px",
+            }}
+          ></Box>
+        )}
+        {book.status === "reading" && !(trending || justAdded || featured) && (
           <Button
             value="Finished"
             variant="text"
@@ -112,7 +101,8 @@ const BCard = ({ book, trending, justAdded, featured }: BCardType) => {
           >
             {FINISHED}
           </Button>
-        ) : book.status === "finished" ? (
+        )}
+        {book.status === "finished" && !(trending || justAdded || featured) && (
           <Button
             value="Read again"
             variant="text"
@@ -120,7 +110,8 @@ const BCard = ({ book, trending, justAdded, featured }: BCardType) => {
           >
             {READ_AGAIN}
           </Button>
-        ) : (
+        )}
+        {book.status === "fresh" && (
           <Box sx={{ marginTop: "10px", border: "1px solid #E1ECFC" }}>
             <Button
               value="Add to library"

@@ -1,4 +1,4 @@
-import React from "react";
+import React, { Fragment } from "react";
 import { Box } from "@mui/material";
 
 export interface ProgressBarType {
@@ -6,26 +6,33 @@ export interface ProgressBarType {
 }
 
 const ProgressBar = ({ status }: ProgressBarType) => {
-  return status === "finished" ? (
-    <Box
-      sx={{
-        background: "#DFE8F6",
-        height: "15px",
-        width: "283px",
-      }}
-    ></Box>
-  ) : status === "reading" ? (
-    <Box
-      sx={{
-        border: "1px solid #E1ECFC",
-        height: "15px",
-        width: "283px",
-        background: "#F1F6F4",
-      }}
-    >
-      <Box sx={{ background: "#E1ECFC", width: "88px", height: "15px" }}></Box>
-    </Box>
-  ) : null;
+  return (
+    <Fragment>
+      {status === "finished" && (
+        <Box
+          sx={{
+            background: "#DFE8F6",
+            height: "15px",
+            width: "283px",
+          }}
+        ></Box>
+      )}
+      {status === "reading" ? (
+        <Box
+          sx={{
+            border: "1px solid #E1ECFC",
+            height: "15px",
+            width: "283px",
+            background: "#F1F6F4",
+          }}
+        >
+          <Box
+            sx={{ background: "#E1ECFC", width: "88px", height: "15px" }}
+          ></Box>
+        </Box>
+      ) : null}
+    </Fragment>
+  );
 };
 
 export default ProgressBar;
